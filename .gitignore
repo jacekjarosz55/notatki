@@ -1,11 +1,11 @@
 # to exclude Obsidian workspace settings (including plugin and hotkey configurations)
-#.obsidian/*
+.obsidian/*
 
 # OR only to exclude workspace cache
-.obsidian/workspace/*
+#.obsidian/workspace/*
 
 # Exclude plugins
-.obsidian/plugins/*
+#.obsidian/plugins/*
 
 # Exclude consultant specific files "personal"
 #05*-*Personal/
