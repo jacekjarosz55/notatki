@@ -35,12 +35,94 @@ $$z^n = |z|^n(\cos{(n \cdot \alpha)} + i\sin({n \cdot \alpha}))$$
 
 ## Mnożenie macierzy
 ### Przez skalar
+$$ A \cdot x = \begin{bmatrix} x \cdot a_{11} & x\cdot a_{12} \\ x \cdot a_{21} & x \cdot a_{22} \end{bmatrix} $$
 ### Przez inną macierz
-## Wyznacznik macierzy
-### Dla macierzy 2-stopnia
-### Metoda Sarussa
-### Rozwinięcie Laplace'a
 
+## Wyznacznik macierzy
+### Dla macierzy 1 stopnia
+$$A =  [a_{11}]$$
+$$detA =  a_{11}$$
+### Dla macierzy 2 stopnia
+$$A = \begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix} = \begin{bmatrix} 2 & 1 \\ 5 & 3 \end{bmatrix}$$
+$$
+detA = a_{11} \cdot a_{22} - a_{12} \cdot a_{21} =  2 \cdot 3 - 1 \cdot 5 = 1
+$$
+### Dla macierzy 3 stopnia - Metoda Sarussa`
+$$
+A = \frac{
+\begin{bmatrix}
+\color{red}a_{11} & a_{12} & a_{13} \\
+\color{blue}a_{21} & \color{red}a_{22} & a_{23} \\
+\color{green}a_{31} & \color{blue}a_{32} & \color{red}a_{33} \\
+\end{bmatrix}
+}{
+\begin{array}{c}
+a_{11} & \color{green} a_{12} & \color{blue}a_{13} \\
+a_{21} & a_{22} & \color{green} a_{23} \\
+\end{array}
+}
+, A = \frac{
+\begin{bmatrix}
+a_{11} & a_{12} & \color{magenta}a_{13} \\
+a_{21} & \color{magenta}a_{22} & \color{cyan}a_{23} \\
+\color{magenta}a_{31} & \color{cyan}a_{32} & \color{yellow}a_{33} \\
+\end{bmatrix}
+}{
+\begin{array}{c}
+\color{cyan}a_{11} & \color{yellow}a_{12} & a_{13} \\
+\color{yellow}a_{21} & a_{22} & a_{23} \\
+\end{array}
+}
+$$
+$$
+detA = ({\color{red}a_{11} \cdot a_{22} \cdot a_{33}} + {\color{blue} a_{21} \cdot a_{32} \cdot a_{13} }+ {\color{green} a_{31} \cdot a_{12} \cdot a_{23}}) - ({\color{magenta} a_{13} \cdot a_{22} \cdot a_{31} } +{\color{cyan} a_{23} \cdot a_{32} \cdot a_{11}} + {\color{yellow} a_{33} \cdot a_{12} \cdot a_{21}}) 
+$$
+
+### Dla większych macierzy -  Rozwinięcie Laplace'a
+
+
+Wzór:
+$$detA = a_{i1}\cdot A_{i1} + a_{i2}\cdot A_{i2} \text{ ... } + a_{ik}\cdot A_{ik}$$
+Gdzie $i$ - dowolny wiersz z $A$ a $k$ - liczba kolumn w $A$
+Albo:
+$$detA = A_{1j} + A{2j} \text{ ... } + A{wj}$$ Gdzie $j$ to dowolna kolumna z $A$ a $w$ - liczba wierszy A
+Dla przykładu:
+$$detA = \begin{vmatrix}
+1 & 2 & 5 & 4 \\
+3 & -3 & -6 & 6 \\
+1 & -2 & -3 & 4 \\
+3 & 5 & -1 & 2 \\
+\end{vmatrix}$$
+Aby ułatwić obliczenia, możemy zredukować dowolny wiersz / kolumnę używając operacji elementarnych tak, aby ten wiersz miał jak najwięcej zer. (Najlepiej taki co już ma najwięcej zer, albo łatwo go zredukować)
+
+$$detA = \begin{vmatrix}
+1 & 2 & 5 & 4 \\
+\color{red}3 & \color{red}-3 & \color{red} -6 & \color{red}6 \\
+1 & -2 & -3 & 4 \\
+3 & 5 & -1 & 2 \\
+\end{vmatrix}$$
+W tym przypadku pierwszą kolumnę zostawiamy bez zmian, do drugiej kolumny dodajemy pierwszą kolumnę, do trzeciej kolumny dodajemy pierwszą kolumnę pomnożoną przez 2, a do czwartej kolumny dodajemy pierwszą kolumnę pomnożoną przez -2. W rezultacie otrzymujemy:
+$$detA = \begin{vmatrix}
+\color{red}1 &  2 + \color{red}1 &  5 + {\color{aqua}2}\cdot\color{red}1 & 4 + ({\color{yellow}-2})\cdot\color{red}1  \\
+\color{red}3 & -3 + \color{red}3 & -6 + {\color{aqua}2}\cdot\color{red}3 & 6+ ({\color{yellow}-2})\cdot\color{red}3  \\
+\color{red}1 & -2 + \color{red}1 & -3 + {\color{aqua}2}\cdot\color{red}1 & 4 + ({\color{yellow}-2})\cdot\color{red}1 \\
+\color{red}3 &  5 + \color{red}3 & -1 + {\color{aqua}2}\cdot\color{red}3 & 2 + ({\color{yellow}-2})\cdot\color{red}3 \\
+\end{vmatrix}$$
+
+$$detA = \begin{vmatrix}
+1 & 3 & 7 & 2 \\
+\color{red}3 & \color{red}0 & \color{red}0& \color{red}0 \\
+1 & -1 & -1 & 2 \\
+3 & 8 & 5 & -4 \\
+\end{vmatrix}$$
+$$detA = a_{21}\cdot A_{21}  + {a_22}\cdot A_{22} + a_{23}\cdot A_{23} +a_{24}\cdot A_{24} $$
+$$detA = 3 \cdot (-1)^{2 + 1}
+\begin{vmatrix}
+3 & 7  & 2  \\
+-1 & -1  & 2  \\
+8 & 5 & -4  \\
+\end{vmatrix}
++ A_{22} + A_{23} + A_{24} $$
 
 ## Macierz odwrotna
 Warunek: $detA \neq 0$
