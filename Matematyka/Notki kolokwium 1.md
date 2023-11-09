@@ -28,7 +28,7 @@ $$z^n = |z|^n(\cos{(n \cdot \alpha)} + i\sin({n \cdot \alpha}))$$
 |---|---|------|------|------|--------|
 | $\alpha$ | $0$ | $\frac{\pi}{6}$ | $\frac{\pi}{4}$ | $\frac{\pi}{3}$| $\frac{\pi}{2}$|
 |$\sin{a}$ |$0$ | $\frac{1}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{3}}{2}$ | $1$ |
-|$\cos{a}$ |$1$ | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{1}{2}$ | 0 |
+|$\cos{a}$ |$1$ | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{1}{2}$ | $0$ |
 |$\tan{a}$ |$0$ | $\frac{\sqrt{3}}{3}$ | $1$ | $\sqrt{3}$ | $-$|
 
 
@@ -37,7 +37,10 @@ $$z^n = |z|^n(\cos{(n \cdot \alpha)} + i\sin({n \cdot \alpha}))$$
 ### Przez skalar
 $$ A \cdot x = \begin{bmatrix} x \cdot a_{11} & x\cdot a_{12} \\ x \cdot a_{21} & x \cdot a_{22} \end{bmatrix} $$
 ### Przez inną macierz
-
+- Mnożenie macierzy $AB$ jest możliwe, tylko wtedy gdy: $$\text{liczba kolumn}\ A = \text{liczba wierszy}\ B$$
+- mnożenie macierzy jest łączne: $A(BC)=(AB)C$
+- mnożenie macierzy jest rozdzielne względem dodawania: $A(B+C)=AB+AC$$ oraz $(A+B)C=AC+BC$
+- Mnożenie macierzy nie jest przemienne: $AB\ne BA$
 ## Wyznacznik macierzy
 ### Dla macierzy 1 stopnia
 $$A =  [a_{11}]$$
@@ -85,7 +88,7 @@ Wzór:
 $$detA = a_{i1}\cdot A_{i1} + a_{i2}\cdot A_{i2} \text{ ... } + a_{ik}\cdot A_{ik}$$
 Gdzie $i$ - dowolny wiersz z $A$ a $k$ - liczba kolumn w $A$
 Albo:
-$$detA = A_{1j} + A{2j} \text{ ... } + A{wj}$$ Gdzie $j$ to dowolna kolumna z $A$ a $w$ - liczba wierszy A
+$$detA = a_{1j} \cdot A_{1j} +a_{2j} \cdot  A_{2j} \text{ ... } +a_{wj} \cdot A_{wj}$$ Gdzie $j$ to dowolna kolumna z $A$ a $w$ - liczba wierszy A
 Dla przykładu:
 $$detA = \begin{vmatrix}
 1 & 2 & 5 & 4 \\
@@ -122,7 +125,7 @@ $$detA = 3 \cdot (-1)^{2 + 1}
 -1 & -1  & 2  \\
 8 & 5 & -4  \\
 \end{vmatrix}
-+ A_{22} + A_{23} + A_{24} $$
++ 0 \cdot A_{22} + 0 \cdot A_{23} +  0 \cdot A_{24} $$
 
 ## Macierz odwrotna
 Warunek: $detA \neq 0$
@@ -162,15 +165,21 @@ A_{21} &  A_{22}
 {-1} & 2
 \end{bmatrix}
 $$
-Oraz transponujemy ją:
+Transponujemy ją:
 $$
-A^{-1} = {A_D}^T = 
+{A_D}^T = 
 \begin{bmatrix}
 3 & -1 \\
 -5 & 2
 \end{bmatrix}
-
 $$
+I mnożymy przez $detA$:
+$$ A^{-1} =  \frac{1}{detA} \cdot 
+\begin{bmatrix}
+3 & -1 \\
+-5 & 2
+\end{bmatrix} $$
+
 
 
 ## Rozwiązywanie układów równań metodą macierzową
@@ -229,8 +238,8 @@ $$A =
 \end{bmatrix}
 \text{, }
 B = \begin{bmatrix}
-2\\
-2 \\
+\color{yellow}2 \\
+\color{yellow}2 \\
 2
 \end{bmatrix}
 \text{, }
