@@ -31,6 +31,17 @@ $$z^n = |z|^n(\cos{(n \cdot \alpha)} + i\sin({n \cdot \alpha}))$$
 |$\cos{a}$ |$1$ | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{1}{2}$ | $0$ |
 |$\tan{a}$ |$0$ | $\frac{\sqrt{3}}{3}$ | $1$ | $\sqrt{3}$ | $-$|
 
+### Ćwiartki
+|Ćwiartka| sin | cos | tg | ctg |
+|--------|-----| ----|----|-----|
+| sin | + | + | + | - |
+| cos | + | - | - | + |
+| tg  | + | - | + | - |
+| ctg | + | - | + | - |
+
+
+Okresowość $\cos$ i $\sin$ = $2\pi$
+
 
 
 ## Mnożenie macierzy
