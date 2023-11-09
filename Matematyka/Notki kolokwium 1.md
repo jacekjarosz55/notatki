@@ -15,13 +15,11 @@ $$A = \begin{bmatrix}
 4 & 5 & 6 \\\
 8 & 8 & 8
 \end{bmatrix}
-\text{, }
 B = \begin{bmatrix}
 2 \\\
 2 \\\
 2
 \end{bmatrix}
-\text{, }
 A_x = \begin{bmatrix}
 2 & 2 & 4 \\\
 2 & 5 & 6 \\\ 
