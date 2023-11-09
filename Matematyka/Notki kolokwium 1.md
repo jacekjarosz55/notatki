@@ -23,8 +23,7 @@ B = \begin{bmatrix}
 \end{bmatrix}
 \text{, }
 A_x = \begin{bmatrix}
-\
 2 & 2 & 4 \\\
 2 & 5 & 6 \\\ 
-2 & 8 & 8 \
+2 & 8 & 8
 \end{bmatrix}$$
