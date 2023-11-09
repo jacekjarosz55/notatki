@@ -1,8 +1,8 @@
 # Notatki na matematykę
 
+
+$$test = 10$$
 ## Wzory Cramera
-
-
 Dla $AX = B$
 
 Wzory Cramera:
