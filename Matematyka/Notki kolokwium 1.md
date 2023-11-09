@@ -4,9 +4,12 @@
 ## Liczby zespolone
 $i$ - **jednostka urojona**
 $$ i^2 = -1$$
+
+
 $$ x^2 = -1$$
 $$ x = i \lor x = -i$$
-$2 + 4i$ - liczba zespolona - liczba złożona z części rzeczywistej lub/oraz części urojonej($x\cdot i$)
+
+$z = 2 + 4i$ - liczba zespolona - liczba złożona z części rzeczywistej lub/oraz części urojonej($x\cdot i$)
 $Rez$ = część rzeczywista
 $Imz$ = część urojona
 
