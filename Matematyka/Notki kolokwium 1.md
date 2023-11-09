@@ -21,7 +21,7 @@ $$|z| = \sqrt{a^2 + b^2}$$
 $$z = |z|(\cos{\alpha} + i\sin{\alpha})$$
 ## Potęgowanie - wzór Moirre'a
 
-$$z^n = |z|^n(\cos{(n \cdot \alpha)} + i\sin({n \cdot \alpha}))$$
+$$z^n = |z|^n(\cos^n{\alpha)} + i\sin^n({\alpha}))$$
 
 ### Niektóre wartości funkcji trygonometrycznych
 | $\alpha$ | $0^{\circ}$ | $30^{\circ}$ | $45^{\circ}$ | $60^{\circ}$ | $90^{\circ}$ | 
