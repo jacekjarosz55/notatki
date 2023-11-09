@@ -7,6 +7,29 @@ $$ i^2 = -1$$
 $$ x^2 = -1$$
 $$ x = i \lor x = -i$$
 $2 + 4i$ - liczba zespolona - liczba złożona z części rzeczywistej lub/oraz części urojonej($x\cdot i$)
+$Rez$ = część rzeczywista
+$Imz$ = część urojona
+
+Sprzężenie zespolone $\bar{z}$:
+$$z = a + bi$$
+$$ \bar{z} = a - bi$$
+
+Postać trygonometryczna:
+$a = Rez$
+$b = Imz$
+$$|z| = \sqrt{a^2 + b^2}$$
+$$z = |z|(\cos{\alpha} + i\sin{\alpha})$$
+## Potęgowanie - wzór Moirre'a
+
+$$z^n = |z|^n(\cos{(n \cdot \alpha)} + i\sin({n \cdot \alpha}))$$
+
+### Niektóre wartości funkcji trygonometrycznych
+| $\alpha$ | $0^{\circ}$ | $30^{\circ}$ | $45^{\circ}$ | $60^{\circ}$ | $90^{\circ}$ | 
+|---|---|------|------|------|--------|
+| $\alpha$ | $0$ | $\frac{\pi}{6}$ | $\frac{\pi}{4}$ | $\frac{\pi}{3}$| $\frac{\pi}{2}$|
+|$\sin{a}$ |$0$ | $\frac{1}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{3}}{2}$ | $1$ |
+|$\cos{a}$ |$1$ | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{1}{2}$ | 0 |
+|$\tan{a}$ |$0$ | $\frac{\sqrt{3}}{3}$ | $1$ | $\sqrt{3}$ | $-$|
 
 
 
