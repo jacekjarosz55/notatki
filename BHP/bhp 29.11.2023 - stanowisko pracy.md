@@ -1,11 +1,6 @@
 
 # Komentarze:
 
-<pre style="color:pink; background: black; font-family: 'Comic Sans MS'">
-typo jest wściekły dzisiaj
-jakiś nie w usosie
-kuuurwa jak ja mam to notować jak on wszystko skipuje
-</pre>
 # Stanowisko pracy
 ## Wymogi bhp dla pomieszczeń pracy
 
