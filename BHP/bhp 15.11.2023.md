@@ -1,5 +1,5 @@
 
-## Obowiązki pracodawcy
+# Obowiązki pracodawcy
 
 Kodeks pracy reguluje obowiązki pracodawcy oraz pracownika
 
@@ -105,7 +105,3 @@ Należy oszacować ryzyko zawodowe oceniając częstotliwość zagrożeń i stop
 Nie dopuszczamy pracownika do pracy w sytuacji dużego zagrożenia.
 
 Służby specjalne są zawodem, w którym praca w sytuacji dużego zagrożenia nie jest karana.
-
-
-
-

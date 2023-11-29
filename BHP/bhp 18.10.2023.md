@@ -3,8 +3,6 @@
 
 Każdy student ma obowiązek przejścia 4-godzinnego szkolenia BHP.
 
-
-
 Najczęstsze przyczyny wypadków na terenie Politechniki świętokrzyskiej:
 - **śliska nawierzchnia** zarówno wewnętrzna jak i zewnętrzna
 - **nieuwaga poszkodowanego**, bądź brak koncentracji uwagi na wykonywanej czynności (np. krzywe ustawienie stopy)
