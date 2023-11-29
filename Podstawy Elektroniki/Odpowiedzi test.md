@@ -24,24 +24,19 @@ W półprzewodniku typu p nośnikami większościowymi są **dziury** (braki ele
 ![[Pasted image 20231129162837.png]]
 
 ## Bariera potencjału jest większa dla krzemu czy germanu? Ile wynosi?
-Większa jest bariera krzemu - wartość między 0,6 a 0,8 V
-TODO: Bariera potencjału germanu.
-
+Dla złączy wykonanych z **krzemu** napięcie to w temperaturze pokojowej ma wartość około **0,6–0,8 V**,
+natomiast dla złącz germanowych około **0,2–0,3 V**.
+*Napięcie to zmniejsza się wraz ze wzrostem temperatury o około 2,3 mV/K.*
 ## Nazwij rodzaje przebicia złącza p-n przy polaryzacji zaporowej.
-
-W złączu p-n przy polaryzacji zaporowej można wyróżnić dwa rodzaje przebicia: przebicie lawinowe (avalanche breakdown) (*zenera?*) i przebicie tunelowe (tunneling breakdown).
-
+W złączu p-n przy polaryzacji zaporowej można wyróżnić dwa rodzaje przebicia: **przebicie lawinowe**, oraz **przebicie Zenera**.
 
 ## Co to jest rezystancja dynamiczna (definicja i wzór)?
-
 Rezystancja dynamiczna to parametr elementów elektronicznych w obwodach prądu przemiennego, opisujący ich reakcję na zmienne sygnały. Wzory to $X_c = - \frac {1}{jωC}$  dla kondensatora i $X_L=jωL​$ dla cewki.
-
-
 ## Czy zakres stabilizacji diody Zenera występuje w obszarze polaryzacji zaporowej?
-Tak
+**Tak**
 
 ## Narysuj symbol diody Zenera i oznacz końcówki
-![[Pasted image 20231129163806.png]]
+![[Pasted image 20231129193306.png]]
 
 ## Przy jakiej polaryzacji dioda elektroluminescencyjna emituje promieniowanie elektromagnetyczne?
 Przy polaryzacji w kierunku przewodzenia.
