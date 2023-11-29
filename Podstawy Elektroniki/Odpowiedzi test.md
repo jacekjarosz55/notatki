@@ -61,8 +61,10 @@ Polaryzacja zaporowa
 Tak.
 
 ## Narysuj symbol tranzystora bipolarnego npn i oznacz końcówki
-![[Pasted image 20231129164413.png]]
-https://www.electronics-tutorials.ws/pl/tranzystor/tranzystor-npn.html TYLKO B, C, E
+![[kurs_elektroniki_tranzystory_symbole.webp]]
+https://www.electronics-tutorials.ws/pl/tranzystor/tranzystor-npn.html 
+końcówki B, C, E
+
 
 ## Wymień przynajmniej dwa zakresy pracy tranzystora bipolarnego
 - WB - wspólna baza
@@ -74,8 +76,8 @@ https://www.electronics-tutorials.ws/pl/tranzystor/tranzystor-npn.html TYLKO B, 
 ## Oblicz
 $I_B = 8 \micro A$ oraz $I_C = 0,64 mA$. Wyznacz $\beta_N$  
 
-$\beta = \frac{I_C} {I_B}$
-$\beta_N = \frac{0,64} {0,008} = 80$
+$$\beta = \frac{I_C} {I_B}$$
+$$\beta_N = \frac{0.64} {0.008} = 80$$
 ## Jaki rodzaj złącza zastosowano w diodzie Schottky'ego?
 Złącze półprzewodnikowe.
 
@@ -83,9 +85,7 @@ Złącze półprzewodnikowe.
 
 ![[Pasted image 20231129164842.png]]
 
-
-TODO: Zamienić na ""prawdziwe"" wykresy
-
+![[7387895900_1350148769.jpg]]
 
 
 
