@@ -51,19 +51,18 @@ Barwa jest uzależniona od materiału półprzewodnikowego
 
 
 ## Podaj określenie mocy admisyjnej
-Moc admisyjna - Moc elektryczna pobierana przez odbiornik lub urządzenie elektryczne od źródła energii.
-
+Moc admisyjna - maksymalna moc, jaka może być wydzielana w danym urządzeniu (części urządzenia, elektrodzie, złączu) bez szkody dla niego
 ## Przy jakiej polaryzacji złącz bramka-kanał pracuje tranzystor polowy złączowy?
 Polaryzacja zaporowa
 
-## Transport nośników w obszarze kanału tranzystora polowego musi się odbywać w kierunku od źródła do drenu
+## Transport nośników w obszarze kanału tranzystora polowego musi się odbywać w kierunku od *źródła* do *drenu*
 
 ## Czy tranzystor MOS z kanałem wbudowanym jest normalnie załączony (ang. *normally ON*).
 Tak.
 
 ## Narysuj symbol tranzystora bipolarnego npn i oznacz końcówki
 ![[Pasted image 20231129164413.png]]
-
+https://www.electronics-tutorials.ws/pl/tranzystor/tranzystor-npn.html TYLKO B, C, E
 
 ## Wymień przynajmniej dwa zakresy pracy tranzystora bipolarnego
 - WB - wspólna baza
