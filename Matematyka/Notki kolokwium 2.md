@@ -1,4 +1,3 @@
-
 # Sprowadzenie postaci kwadratowej  do postaci kanonicznej
 
 $$x = \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}$$
@@ -16,7 +15,6 @@ Obliczamy $detM$:
 
 
 Obliczamy wartości własne $M$:
-
 $$ \begin{vmatrix}
 a_{11} - \lambda & a_{12} \\
 a_{21} & a_{22} - \lambda \\
@@ -38,9 +36,6 @@ v_{12}
 0
 \end{bmatrix}
 $$
-
-
-
 
 Macierz przejścia
 $$ A = 
