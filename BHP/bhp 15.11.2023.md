@@ -1,9 +1,8 @@
-
 # Obowiązki pracodawcy
 
 Kodeks pracy reguluje obowiązki pracodawcy oraz pracownika
 
-Dział 10 - BHP art. 207 Pracodawca ponosi odpowiedzialność za stan bezpieczństwa i higieny pracy w zakładzie.
+Dział 10 - BHP art. 207 Pracodawca ponosi odpowiedzialność za stan bezpieczeństwa i higieny pracy w zakładzie.
 
 Ponadto pracodawca obowiązany jest chronić zdrowie i życie pracownika przez zapewnienie bezpiecznych i higienicznych warunków pracy , a w szczególności:
 - organizować pracę w sposób zapewniający bezpieczne i higieniczne warunki pracy,

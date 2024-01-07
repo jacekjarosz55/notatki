@@ -42,7 +42,6 @@ $$z^n = |z|^n(\cos{(n \cdot \alpha)} + i\sin({n \cdot \alpha}))$$
 | tg  | + | - | + | - |
 | ctg | + | - | + | - |
 
-
 Okresowość $\cos$ i $\sin$ = $2\pi$
 
 

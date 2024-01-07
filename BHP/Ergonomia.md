@@ -6,7 +6,7 @@
 
 Ergonomia jest nauką interdyscyplinarną, zajmującą się przystosowaniem narzędzi,
 maszyn, środowiska i warunków pracy do autonomicznych i psychofizycznych cech i
-możliwośći człowieka, zapewniając sprawne, wydajne i bezpieczne wykonanie przez
+możliwości człowieka, zapewniając sprawne, wydajne i bezpieczne wykonanie przez
 niego pracy, przy stosunkowo niskim koszcie biologicznym.
 
 
