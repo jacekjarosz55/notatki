@@ -1,6 +1,5 @@
 
-
-
+<table style="text-align: center; margin:auto;"> <tr> <th colspan="2">Programowanie Obiektowe 1</td> <td colspan="2">Rok akademicki 2023/2024</td> </tr> <tr> <td colspan="2">Jacek Jarosz, Marcin Furmańczyk</td> <td>1ID12B</td> <td>Instrukcja #2</td> </tr> <tr> <td colspan="2">Zadań zaplanowanych: 6</td> <td colspan="2">Zadań oddanych: 6</td> </tr> <tr> <td style="text-align: center;" colspan="4">wtorek, godz 10.00-12.00</td> </tr> <tr> <td style="text-align:center;" colspan="4">studia stacjonarne (semestr letni) </td></tr></table>
 
 # Zadania do wykonania
  
@@ -185,7 +184,8 @@ public:
         container.pop_back();
         return val;
     }
-};```
+}
+```
 
 
 ## 3. Przygotuj klasę zawierającą pola i metody dla Osoby.
