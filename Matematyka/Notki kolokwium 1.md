@@ -52,7 +52,7 @@ $$ A \cdot x = \begin{bmatrix} x \cdot a_{11} & x\cdot a_{12} \\ x \cdot a_{21} 
 ### Przez inną macierz
 - Mnożenie macierzy $AB$ jest możliwe, tylko wtedy gdy: $$\text{liczba kolumn}\ A = \text{liczba wierszy}\ B$$
 - mnożenie macierzy jest łączne: $A(BC)=(AB)C$
-- mnożenie macierzy jest rozdzielne względem dodawania: $A(B+C)=AB+AC$$ oraz $(A+B)C=AC+BC$
+- mnożenie macierzy jest rozdzielne względem dodawania: $A(B+C)=AB+AC$ oraz $(A+B)C=AC+BC$
 - Mnożenie macierzy nie jest przemienne: $AB\ne BA$
 ## Wyznacznik macierzy
 ### Dla macierzy 1 stopnia
